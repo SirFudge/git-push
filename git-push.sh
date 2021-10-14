@@ -21,6 +21,12 @@ exit 0
 fi
 done
 
-git commit
-git push origin
+echo "Commiting your changes"
+echo "What dit you change?"
+read changed
+git commit -m "$changed"
+
+echo "Pushing your branch"
+echo "What branch where you working in?"
+git push origin $branch
 
