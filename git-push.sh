@@ -18,15 +18,13 @@ then
 echo "Staring to push this branch."
 
 else
-then
 echo "Stopping the script!"
 exit 0
 
 fi
-done
 
 #Commiting.
-
+git add .
 echo "Commiting your changes"
 echo "What dit you change?"
 read changed
