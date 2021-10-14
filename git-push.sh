@@ -12,7 +12,7 @@ sleep 3
 echo "Do you want to run the script?"
 
 read anwser
-if  [[ "$anwser" == 'yes' ]] || [[ "$anwser" == 'Yes' ]]
+if  [[ "$anwser" == 'yes' ]] || [[ "$anwser" == 'Yes' ]] || [[ "$anwser" == 'Y' ]] || [[ "$anwser" == 'y' ]]
 then
 
 echo "Staring to push this branch."
