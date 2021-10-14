@@ -34,6 +34,7 @@ git commit -m "$changed"
 
 echo "Pushing your branch"
 echo "What branch where you working in?"
+read branch
 git push origin $branch
 
 #Finishing script.
